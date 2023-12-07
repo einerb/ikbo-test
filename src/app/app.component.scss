@@ -1,0 +1,103 @@
+.nav-link:hover, .title-new-top:hover {
+  color: hsl(5, 85%, 63%) !important;
+}
+
+.bg-light {
+  background-color: white !important;
+}
+
+.content {
+  padding-top: 110px;
+  margin-bottom: 100px;
+}
+
+.text-secondary {
+  padding-right: 70px;
+  font-size: 17px;
+  color: hsl(240, 100%, 5%) !important;
+}
+
+.text-main {
+  font-size: 60px;
+  line-height: 62px;
+  font-weight: bolder;
+  color: hsl(240, 100%, 5%);
+}
+
+.text-main-mobile {
+  font-size: 60px;
+  line-height: 60px;
+  color: hsl(240, 100%, 5%);
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.card {
+  width: 85%;
+}
+
+.card a {
+  color: white;
+}
+
+.card a:hover {
+  color: hsl(35, 77%, 62%);
+}
+
+.read-more {
+  background-color: hsl(5, 85%, 63%);
+  padding: 10px 50px;
+  color: white;
+  text-align: justify;
+}
+
+.read-more:hover {
+  background-color: hsl(240, 100%, 5%) !important;
+  padding: 10px 30px;
+  color: white;
+  text-align: justify;
+  font-weight: bold;
+}
+
+.bg-dark {
+  background-color: hsl(240, 100%, 5%) !important;
+}
+
+.title-new {
+  color: hsl(35, 77%, 62%);
+}
+
+.number-text{
+  font-size: 32px;
+  color: rgb(194, 194, 194);
+}
+
+@media (max-width: 768px) {
+  .text-main {
+    padding-right: 0px;
+    font-size: 36px;
+    line-height: 36px;
+    margin-top: -20px;
+    margin-bottom: 20px;
+  }
+
+  .text-secondary {
+    padding-right: 0px;
+    font-size: 15px;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .number-text{
+    font-size: 24px;
+  }
+
+  .title-new-top{
+    font-size: 16px;
+  }
+}
